@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Site India - Shop Online for men, women and kids fashion, home, kitchen, health, sports and more products at ShopClues</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body>
+  <!--Header part-->
+  <header class="head_container">
+        <div class="constant_navbar_1">
+            <div class="sell_with_us"><a class="text_" href="#">Sell With Us</a></div>     
+            <div class="contact_us"><a class="text_" href="#">Contact Us</a></div>
+            <div class="download" >DownLoad Apps:</div>       
+            <div>
+                <a class="links"  href="android"><img class="os" src="./images/icon-android.webp" alt=""></a>
+                <a class="links"  href="apple"><img class="os" src="./images/icon-apple.webp" alt="apple"></a>
+                <a class="links"  href="windoes"><img class="os" src="./images/icon_windows.webp" alt="windows"></a>
+            </div>
+        </div>
+
+        <div class="constant_navbar_2">      
+            <div class="online_shopping_site_icon"><img class="site_icon" src="./images/site_icon.svg" alt="site_icon"></div>
+
+          <div class="search_bar">
+            <a class="submit"><span class="material-symbols-outlined search_icon">search</span></a>
+            <input  class="search_input" placeholder="What is on your mind today?" >
+            <button type="button" class="btn btn-warning" style=" background: #ff934b; color: white;">Search</button>
+          </div>
+      
+          <div class="location_bar">
+            <span class="share">Share<a class="loction_link" href="#">Location</a></span>
+            <img class="location" src="./images/location1.png" alt="loction">
+          </div>
+
+          <div class="action_bar"> 
+             <div class="action_container">
+               <img class="notify_icon" src="./images/notification.png" alt="notification">
+               <img class="love_icon"src="./images/love.png" alt="love">  
+               <img class="cart_icon" src="./images/cart.png" alt="cart">
+             </div>
+            <div class="signin" >Sign In</div>
+          </div>
+        </div>
+
+      <div class="navbar_Container1">
+            <nav class="NavBar">
+                <a href="#"><img class="madeinindia" src="./images/madeinindia.png" alt="madeinindia"></a>
+                <a onmouseover="displayCard()"  onmouseleave="hideCard()" class=" text_size_1 text_size cursor">MOBILES & MORE</a>
+                <a onmouseover="displayCard2()" onmouseleave="hideCard2()" class=" text_size_2 text_size cursor">MEN</a>
+                <a onmouseover="displayCard3()" onmouseleave="hideCard3()" class=" text_size_3 text_size cursor">WOMEN</a>
+                <a onmouseover="displayCard4()" onmouseleave="hideCard4()" class=" text_size_4 text_size cursor">HOME & KICHEN</a>
+                <a onmouseover="displayCard5()" onmouseleave="hideCard5()" class=" text_size_5 text_size cursor">APPLIENCE</a>
+                <a onmouseover="displayCard6()" onmouseleave="hideCard6()" class=" text_size_6 text_size cursor">SPORTS & MORE</a>
+                <a onmouseover="displayCard7()" onmouseleave="hideCard7()" class=" text_size_7 text_size cursor">ESSENTIALS</a>
+                <a onmouseover="displayCard8()" onmouseleave="hideCard8()" class=" text_size_8 text_size cursor">OFFERS</a>
+                <a  class=" text_size_9 text_size">GLOBAL SHOPPINGS</a>
+            </nav>
+      </div>
+
+      <div onmouseover="displayCard()" class="card-anim" id="display-card1" style="display:flex; justify-content:center">
+      <div class="card p-4" style="height:400px;width:100% !important">
+        <div class="row" >
+          <div class="col Mobiles_coloumn_left1">
+            <strong>Smartphones & Tablets</strong>
+            <a class="mobiles_coloumn1">I KALL</a>
+            <a class="mobiles_coloumn1">Mi</a>
+            <a class="mobiles_coloumn1">Realme</a>
+            <a class="mobiles_coloumn1">Samsung</a>
+            <a class="mobiles_coloumn1">Vivo</a>
+            <a class="mobiles_coloumn1">Oppo</a>
+            <a class="mobiles_coloumn1">Apple</a>
+            <a class="mobiles_coloumn1"> Tecno</a>
+            <a class="mobiles_coloumn1"> Infinix</a>
+            <a class="mobiles_coloumn1">Micromax</a>
+           </div>
+
+           <div class="col Mobiles_coloumn_leftside2">
+            <strong>Feature Phones</strong>
+            <a class="mobiles_coloumn2">Micromax</a>
+            <a class="mobiles_coloumn2">I KALL</a>
+            <a class="mobiles_coloumn2">Nokia</a>
+            <a class="mobiles_coloumn2">MTR</a>
+            <a class="mobiles_coloumn2">Heemax</a>
+            <a class="mobiles_coloumn2">Karbonn</a>
+            <a class="mobiles_coloumn2">Kechaoda</a>
+            <a class="mobiles_coloumn2"> Gfive</a>
+            <a class="mobiles_coloumn2"> Blackbear</a>
+            <a class="mobiles_coloumn2">Samsung</a>
+           </div>
+    
+           <div class="col mobiles_coloumn_middle">
+            <strong>Bestsellers in Accessories</strong>
+            <a class="mobiles_coloumn3">Top Rated Accessories</a>
+            <a class="mobiles_coloumn3">Combos</a>
+            <a class="mobiles_coloumn3">Power Banks</a>
+            <a class="mobiles_coloumn3">Cases & Covers</a>
+            <a class="mobiles_coloumn3">Mobile Holders</a>
+            <a class="mobiles_coloumn3">Cables</a>
+            <a class="mobiles_coloumn3">Adapter & Chargers</a>
+            <a class="mobiles_coloumn3"> Selfie Sticks</a>
+           </div>
+    
+           <div class="col mobiles_coloumn_right2">
+            <strong>AccessoriBrandedes</strong>
+            <a class="mobiles_coloumn4">Foxin</a>
+            <a class="mobiles_coloumn4">Gionee</a>
+            <a class="mobiles_coloumn4">AXL</a>
+            <a class="mobiles_coloumn4">Hammer</a>
+            <a class="mobiles_coloumn4">Lenovo</a>
+            <a class="mobiles_coloumn4">Zebronics</a>
+            <a class="mobiles_coloumn4">Hi-Plus</a>
+            <a class="mobiles_coloumn4">Syska</a>
+            <a class="mobiles_coloumn4"> Tecsox</a>
+          </div>
+
+          <div class="col mobiles_coloumn_right1">
+            <strong>Laptops</strong>
+            <a class="mobiles_coloumn5">HP</a>
+            <a class="mobiles_coloumn5">Lenovo</a>
+            <a class="mobiles_coloumn5">Asus</a>
+            <a class="mobiles_coloumn5">Acer</a>
+            <a class="mobiles_coloumn5">Coconics</a>
+            <br>
+            <strong>Laptop Accessories</strong>
+            <a class="mobiles_coloumn5">Mouse</a>
+            <a class="mobiles_coloumn5">Keyboards</a>
+            <a class="mobiles_coloumn5"> Laptop Skins</a>
+           </div>
+        </div>
+      </div>
+    </div>
+
+       
+    
+      <div onmouseover="displayCard2()" class="card-anim" id="display-card2" style="display:flex; justify-content:center">
+        <div class="card p-4" style="height:400px;width:100% !important">
+          <div class="row" >
+          <div class="col Men_coloumn">
+           <strong>Men's Clothing</strong>
+           <a class="men_coloumn1">T-shirt</a>
+           <a class="men_coloumn1">Shirt</a>
+           <a class="men_coloumn1">Jeans</a>
+           <a class="men_coloumn1">Cargos</a>
+           <a class="men_coloumn1">Trousers</a>
+           <a class="men_coloumn1">Track Pants</a>
+           <a class="men_coloumn1">Shorts & 3/4th</a>
+           <a class="men_coloumn1">Jackets</a>
+           <a class="men_coloumn1">Ethnic Wear</a>
+           <a class="men_coloumn1">Winter wear </a>
+           <a class="men_coloumn1">Inner & Sleepwear</a>
+           <a class="men_coloumn1">29K Store</a>
+          </div>
+    
+          <div class="col Men_coloumn">
+           <strong>Footwear</strong>
+            <a class="men_coloumn2">Casual Shoes</a>
+            <a class="men_coloumn2">Sports Shoes</a>
+            <a class="men_coloumn2">Formal Shoes</a>
+            <a class="men_coloumn2">Sandals & Floaters</a>
+            <a class="men_coloumn2">Slippers & Flip Flops</a>
+            <a class="men_coloumn2">Loafers And Moccasins</a>
+            <a class="men_coloumn2">Boots</a>
+            <a class="men_coloumn2">Ethnic</a>
+            <a class="men_coloumn2">Speciality Footwear</a>
+            <a class="men_coloumn2">Shoe Care Kit & Accessories</a>
+            <a class="men_coloumn2">Top Selling Brands</a>
+           </div>
+    
+           <div class="col Men_coloumn">
+            <strong>Men's Watches</strong>
+            <a class="men_coloumn3">Watch Combos</a>
+            <a class="men_coloumn3">Couple Watches</a>
+            <a class="men_coloumn3">Fastrack, Sonata & More</a>
+            <a class="men_coloumn3">Budget Watches</a>
+            <a class="men_coloumn3">Smart Watches</a>
+            <br>
+            <strong>Men's Jewellery</strong>
+            <a class="men_coloumn3">Fashion Jewellery</a>
+            <a class="men_coloumn3">Chains & Pendants</a>
+            <a class="men_coloumn3">Precious Jewellery</a>
+            <a class="men_coloumn3">Silver Jewellery</a>
+           </div>
+    
+           <div class="col Men_coloumn">
+            <strong>Grooming</strong>
+            <a class="men_coloumn4">Beard & Moustache Care</a>
+            <a class="men_coloumn4">Men's Shaving</a>
+            <a class="men_coloumn4">Grooming Appliances</a>
+            <a class="men_coloumn4">Bath Essentials</a>
+            <a class="men_coloumn4">Oral Care</a>
+            <a class="men_coloumn4">Skin Care</a>
+            <a class="men_coloumn4">Hair Care</a>
+            <br>
+            <strong>Eyewear</strong>
+            <a class="men_coloumn4">Sunglasses</a>
+            <a class="men_coloumn4">Spectacle Frames</a>
+           </div>
+    
+           <div class="col Men_coloumn">
+            <strong>Fashion Accessories</strong>
+            <a class="men_coloumn5">Wallets</a>
+            <a class="men_coloumn5">Belts</a>
+            <a class="men_coloumn5">Socks</a>
+            <a class="men_coloumn5">Caps</a>
+            <a class="men_coloumn5">Winter Accessories</a>
+            <a class="men_coloumn5">Men's Accessories Gift Sets</a>
+            <a class="men_coloumn5"> Returns</a>
+            <a class="men_coloumn5"> Privacy Policy</a>
+            <a class="men_coloumn5">Grievance Officers</a>
+           </div>
+        </div>
+       </div>
+      </div>
+      
+      <div onmouseover="displayCard3()" class="card-anim" id="display-card3" style="display:flex; justify-content:center">
+        <div class="card p-4" style="height:400px;width:100% !important">
+          <div class="row" >
+          <div class="col Women_coloumn">
+            <strong>Ethnic Wear</strong>
+            <a class="Women_coloumn1">Sarees</a>
+            <a class="Women_coloumn1">Kurtas & Kurtis</a>
+            <a class="Women_coloumn1">Lehengas & Party Gowns</a>
+            <a class="Women_coloumn1">Dress Material</a>
+            <a class="Women_coloumn1">Leggings & Churidar</a>
+            <a class="Women_coloumn1">Meia Store</a>
+           </div>
+    
+          <div class="col Women_coloumn">
+            <strong>Western Wear</strong>
+            <a class="Women_coloumn2">Tops & Tees</a>
+            <a class="Women_coloumn2">Dresses</a>
+            <a class="Women_coloumn2">Jeans & Jeggings</a>
+            <a class="Women_coloumn2">Pants & Trousers</a>
+            <a class="Women_coloumn2">Code Yellow Store</a>
+           </div>
+    
+          <div class="col Women_coloumn">
+           <strong>Footwear</strong>
+           <a class="Women_coloumn3">Casual Shoes</a>
+           <a class="Women_coloumn3">Flats & Sandals</a>
+           <a class="Women_coloumn3">Women's Heels & Pumps</a>
+           <a class="Women_coloumn3">Women Sports Shoes</a>
+           <a class="Women_coloumn3">Wedges</a>
+           <a class="Women_coloumn3">Women's Bellies</a>
+           <a class="Women_coloumn3">Flip Flops & Slippers</a>
+          </div>
+    
+          <div class="col Women_coloumn">
+            <strong>All Jewellery</strong>
+            <a class="Women_coloumn4">Fashion Jewellery</a>
+            <a class="Women_coloumn4">Pendant & Necklace Sets</a>
+            <a class="Women_coloumn4">Mangalsutra & Bangles</a>
+            <a class="Women_coloumn4">Earrings & Rings</a>
+            <a class="Women_coloumn4">Gold & Diamond Jewellery</a>
+            <a class="Women_coloumn4">Silver Jewellery</a>
+            <a class="Women_coloumn4">Gold & Rings</a>
+          </div>
+    
+          <div class="col Women_coloumn">
+            <strong>Beauty & Perfumes</strong>
+            <a class="Women_coloumn5">Skin Care</a>
+            <a class="Women_coloumn5">Make-Up</a>
+            <a class="Women_coloumn5">Hair Care</a>
+            <a class="Women_coloumn5">Personal Care & Grooming</a>
+            <a class="Women_coloumn5">Beauty Accessories</a>
+            <a class="Women_coloumn5">Grooming Appliances</a>
+            <a class="Women_coloumn5">Bath Essentials</a>
+            <a class="Women_coloumn5"> Oral Care</a>
+            <a class="Women_coloumn5"> Women Hygiene</a>
+          </div>
+        </div>
+        </div>
+      </div>
+    
+      <div onmouseover="displayCard4()" class="card-anim" id="display-card4" style="display:flex; justify-content:center">
+        <div class="card p-4" style="height:400px;width:100% !important">
+          <div class="row">
+          <div class="col home_coloumn">
+            <strong>Kitchen & Dining</strong>
+            <a class="home_coloumn1">Dinner sets</a>
+            <a class="home_coloumn1">Cookware</a>
+            <a class="home_coloumn1">Container Sets</a>
+            <a class="home_coloumn1">Kitchen tools</a>
+            <a class="home_coloumn1">Lunch box</a>
+            <a class="home_coloumn1">Kitchen storage</a>
+           </div>
+    
+          <div class="col home_coloumn">
+            <strong>Home Furnishing</strong>
+            <a class="home_coloumn2">Contact Us</a>
+            <a class="home_coloumn2">Home Berry</a>
+            <a class="home_coloumn2">Bedsheets</a>
+            <a class="home_coloumn2">Curtains</a>
+            <a class="home_coloumn2">Carpets & Rugs</a>
+            <a class="home_coloumn2">Blankets</a>
+            <a class="home_coloumn2">Towels</a>
+            <a class="home_coloumn2">Furnishing Combos</a>
+           </div>
+    
+           <div class="col home_coloumn">
+            <strong>Lighting Solutions</strong>
+            <a class="home_coloumn3">Led bulbs</a>
+            <a class="home_coloumn3">Tubelights & Battens</a>
+            <a class="home_coloumn3">Rechargeable Lights</a>
+            <a class="home_coloumn3">Electrical</a>
+            <a class="home_coloumn3">Panel & Ceiling Lights</a>
+            <a class="home_coloumn3">Lighting Clocks</a>
+           </div>
+    
+          <div class="col home_coloumn">
+           <strong>Furniture</strong>
+           <a class="home_coloumn4">Inflatable Sofas</a>
+           <a class="home_coloumn4">Storage Furniture</a>
+           <a class="home_coloumn4">Bean Bags</a>
+           <a class="home_coloumn4">Wall Shelves</a>
+           <a class="home_coloumn4">Sofa Sets</a>
+           <a class="home_coloumn4">Beds</a>
+          </div>
+    
+          <div class="col home_coloumn">
+            <strong>Home Appliance</strong>
+            <a class="home_coloumn5">Water Purifiers</a>
+            <a class="home_coloumn5">Irons</a>
+            <a class="home_coloumn5">Emergency Lights</a>
+            <a class="home_coloumn5">Sewing Machines</a>
+            <a class="home_coloumn5">Vacuum Cleaners</a>
+            <a class="home_coloumn5"> Appliances Parts & Components</a>
+           </div>
+          </div>
+        </div>
+      </div>
+    
+      <div onmouseover="displayCard5()" class="card-anim" id="display-card5" style="display:flex; justify-content:center">
+        <div class="card p-4" style="height:400px;width:100% !important">
+          <div class="row">
+          <div class="col applience_coloumn">
+            <strong>TV & DTH</strong>
+            <a class="applience_coloumn1">Television</a>
+            <a class="applience_coloumn1">Full HD</a>
+            <a class="applience_coloumn1">HD Ready</a>
+            <a class="applience_coloumn1">Ultra HD</a>
+            <br>
+            <strong>Shop TV By Screen</strong>
+            <a class="applience_coloumn1">Below 32 Inch</a>
+            <a class="applience_coloumn1">32 Inch</a>
+            <a class="applience_coloumn1">39 Inch - 42 Inch</a>
+            <a class="applience_coloumn1"> 43 Inch & Above</a>
+           </div>
+    
+          <div class="col applience_coloumn">
+            <strong>Large Home Appliances</strong>
+            <a class="applience_coloumn2">Air Conditioners</a>
+            <a class="applience_coloumn2">Split ACs</a>
+            <a class="applience_coloumn2">Window Acs</a>
+            <br>
+            <strong>Refrigerators</strong>
+            <a class="applience_coloumn2">Single Door</a>
+            <a class="applience_coloumn2">Double Door</a>
+            <a class="applience_coloumn2"> Side by Side</a>
+           </div>
+    
+          <div class="col applience_coloumn">
+            <strong>Washing Machine</strong>
+            <a class="applience_coloumn3">Semi Automatic</a>
+            <a class="applience_coloumn3">Fully Automatic Top Load</a>
+            <a class="applience_coloumn3">Fully Automatic Front Load</a>
+            <br>
+            <strong>Large Kitchen Appliances</strong>
+            <a class="applience_coloumn3">Chimney & Hoods</a>
+            <a class="applience_coloumn3">Microwave and Halogen Ovens</a>
+            <a class="applience_coloumn3">OTG</a>
+            <a class="applience_coloumn3">Dishwashers</a>
+           </div>
+    
+          <div class="col applience_coloumn">
+            <strong>Geysers</strong>
+            <br>
+            <strong>Heaters</strong>
+            <br>
+            <strong>Inverters</strong>
+            <br>
+            <strong>Stabilizers</strong>
+            <br>
+            <strong>Air Coolers</strong>
+            <br>
+            <strong>Air Purifiers And De-Humidifiers</strong>
+           </div>
+          </div>
+          </div>
+        </div>
+        
+        <div onmouseover="displayCard6()"class="card-anim" id="display-card6" style="display:flex; justify-content:center">
+          <div class="card p-4" style="height:400px;width:100% !important">
+            <div class="row">
+          <div class="col sports_coloumn">
+            <strong>Diet Nutrition</strong>
+            <a class="sports_coloumn1">Whey Protein</a>
+            <a class="sports_coloumn1">Pre & Post Workout</a>
+            <a class="sports_coloumn1">Fat Burners</a>
+            <a class="sports_coloumn1">Vitamins & Minerals</a>
+            <a class="sports_coloumn1">Ayurveda & Herbal</a>
+            <a class="sports_coloumn1">Dry Food</a>
+            <br>
+            <strong>Healthcare</strong>
+            <a class="sports_coloumn1">Flu Care</a>
+            <a class="sports_coloumn1">Massage & Relaxation</a>
+            <a class="sports_coloumn1">Weighing Scales</a>
+            <a class="sports_coloumn1">BP Monitors</a>
+            <a class="sports_coloumn1">Supports & Elderly Care</a>
+            <a class="sports_coloumn1">General Wellness</a>
+           </div>
+    
+          <div class="col sports_coloumn">
+            <strong>Fitness & Exercise</strong>
+            <a class="sports_coloumn2">Ab Exercisers</a>
+            <a class="sports_coloumn2">Home Gyms</a>
+            <a class="sports_coloumn2">Exercise Bikes</a>
+            <a class="sports_coloumn2">Fitness Accessories</a>
+            <a class="sports_coloumn2">Treadmills</a>
+            <a class="sports_coloumn2">Cardio Equipments</a>
+           </div>
+      
+          <div class="col sports_coloumn">
+            <strong>Car Accessories <br>& Electronics</strong>
+            <a class="sports_coloumn3">Perfumes & Fresheners</a>
+            <a class="sports_coloumn3">Dashboard Accessories</a>
+            <a class="sports_coloumn3">Sun Shades</a>
+            <a class="sports_coloumn3">Car Body Covers</a>
+            <a class="sports_coloumn3">Door & Bumper Guards</a>
+            <a class="sports_coloumn3"> Car Electronics</a>
+           </div>
+    
+          <div class="col sports_coloumn">
+            <strong>Beauty & Perfumes</strong>
+            <a class="sports_coloumn4">Skin Care</a>
+            <a class="sports_coloumn4">Make-Up</a>
+            <a class="sports_coloumn4">Hair Care</a>
+            <a class="sports_coloumn4">Personal Care & Grooming Products</a>
+            <a class="sports_coloumn4">Beauty Accessories</a>
+           </div>
+    
+          <div class="col sports_coloumn">
+            <strong>Daily Needs & Essentials</strong>
+           <a class="sports_coloumn5">Food & Beverages</a>
+           <a class="sports_coloumn5">Household Supplies</a>
+           <a class="sports_coloumn5">Pet Suplies</a>
+           <a class="sports_coloumn5">Regional Sweets and snacks</a>
+           <a class="sports_coloumn5">Stationery</a>
+           <a class="sports_coloumn5">Books</a>
+          </div>
+         </div>
+         </div>
+        </div>
+
+        
+        <div onmouseover="displayCard7()" class="card-anim" id="display-card7" style="display:flex; justify-content:center">
+          <div class="card p-4" style="height:400px;width:100% !important">
+            <div class="row">
+          <div class="col essentials_coloumn">
+           <strong>Food and Beverage</strong>
+           <a class="essentials_coloumn1">Oils & Vinegars</a>
+           <a class="essentials_coloumn1">Pastas & Noodles</a>
+           <a class="essentials_coloumn1">Coffee & Tea</a>
+           <a class="essentials_coloumn1">Cakes Biscuits & Chips</a>
+           <a class="essentials_coloumn1">Dry Fruits Nuts & Seeds</a>
+           <a class="essentials_coloumn1">Jams Honey & Spreads</a>
+           <a class="essentials_coloumn1">Mouth Freshners & Digestives</a>
+           <a class="essentials_coloumn1">Ready to cook</a>
+           <a class="essentials_coloumn1">Sauces Dips & Pickles</a>
+          </div>
+    
+          <div class="col essentials_coloumn">
+            <strong>Household Supplies</strong>
+            <a class="essentials_coloumn2">Laundry and Detergents</a>
+            <a class="essentials_coloumn2">Disposables</a>
+            <a class="essentials_coloumn2">Pooja Essentials</a>
+            <a class="essentials_coloumn2">Repellents & Devices</a>
+            <br>
+            <strong>Nutrition & Supplements</strong>
+            <a class="essentials_coloumn2">Ayurveda & Herbal</a>
+            <a class="essentials_coloumn2">Family Nutrition</a>
+            <a class="essentials_coloumn2">Vitamins and Minerals</a>
+           </div>
+    
+           <div class="col essentials_coloumn">
+            <strong>Personal Care and Grooming</strong>
+            <a class="essentials_coloumn3">Men's Grooming</a>
+            <a class="essentials_coloumn3">Feminine Hygiene</a>
+            <a class="essentials_coloumn3">Oral Care</a>
+            <a class="essentials_coloumn3">Hair Care</a>
+            <a class="essentials_coloumn3">Fragrances</a>
+            <br>
+            <strong>Baby Care</strong>
+            <a class="essentials_coloumn3">Baby Food</a>
+            <a class="essentials_coloumn3">Bath & Skin Care</a>
+            <a class="essentials_coloumn3">Diapers & Wipes</a>
+           </div>
+          </div>
+          </div>
+        </div>
+    
+         <div onmouseover="displayCard8()" class="card-anim" id="display-card8" style="display:flex; justify-content:center">
+          <div class="card p-4" style="height:400px;width:100% !important">
+            <div class="row">
+           <div class="col offers_coloumn">
+            <strong>All Officers</strong>
+            <br>
+            <strong>Popular Categories</strong>
+           <a class="offers_coloumn1">Women Ethnic</a>
+           <a class="offers_coloumn1">Mens Tshirt</a>
+           <a class="offers_coloumn1"> Watches</a>
+           <a class="offers_coloumn1">Mens Footwear</a>
+           <a class="offers_coloumn1"> Women Western</a>
+           <a class="offers_coloumn1">Home Furnishing</a>
+           </div>
+    
+          <div class="col offers_coloumn">
+            <strong>Explore Our Stores</strong>
+            <a class="offers_coloumn2">Saree Fest</a>
+            <a class="offers_coloumn2">Watch Carnival</a>
+            <a class="offers_coloumn2">Lighting Shoppe</a>
+            <a class="offers_coloumn2">Jeans Fest</a>
+            <a class="offers_coloumn2">Mobile Accessories</a>
+            <a class="offers_coloumn2">Bed Sheets</a>
+           </div>
+    
+           <div class="col offers_coloumn">
+            <strong> Shop By Price</strong>
+            <a class="offers_coloumn3">Under 99</a>
+            <a class="offers_coloumn3">Under 199</a>
+            <a class="offers_coloumn3">Under 399</a>
+            <a class="offers_coloumn3">Under 599</a>
+            <a class="offers_coloumn3">500 & Above</a>
+            <strong>Shop By Discount</strong>
+            <a class="offers_coloumn3">Upto 25% Off</a>
+            <a class="offers_coloumn3">Upto 50% Off</a>
+            <a class="offers_coloumn3">Upto 60% Off</a>
+            <a class="offers_coloumn3">Upto 80% Off</a>
+           </div>
+    
+           <div class="col offers_coloumn">
+            <strong>New Arrivals</strong>
+            <a class="offers_coloumn4">Lifestyle</a>
+            <a class="offers_coloumn4">Home & Living</a>
+            <a class="offers_coloumn4">Electronics</a>
+            <a class="offers_coloumn4">Daily Utility</a>
+           </div>
+          </div>
+          </div>
+        </div> 
+    
+      <div class="navbar_Container2">
+        <nav class="NavBar_2">
+            <a class="text_size_2 text_size2">Jaw Dropping Deals</a>
+            <a class="text_size_3 text_size2">Refurbished Mobile</a>
+            <a class="text_size_4 text_size2">Express Shipping</a>
+            <a class="text_size_5 text_size2">Men's Clothing</a>
+            <a class="text_size_6 text_size2">Women's Fashion</a>
+            <a class="text_size_7 text_size2">Footwear</a>
+            <a class="text_size_8 text_size2">Kitchen & Dinning</a>
+            <a class="text_size_9 text_size2">Audio & Headphones </a>
+            <a class="text_size_9 text_size2">Bags & Luggage</a>
+        </nav>
+      </div>
+  </header>
+
+<!---- main_container part-->
+<div class="container-fluid pt-4 pb-2 custom-row">
+  <div class="card banner_container col-8">
+   <div class="col-sm-12" style="height:345px;">
+     <div class="row">
+      <div class="col silder_bar"><img class="Refurbished_vintage" src="./images/banner_bar5.jpg" alt=""></div>
+      
+      </div>
+    </div>
+
+    <div class="col-sm-12 slick-slider">
+      <div class="row ps-2 pt-2 pe-2">
+         <div class="col slick-current slick-active">
+            <span>Refurbished<br>vintage Phone</span>
+         </div>
+         <div class="col slick-active">
+           <span>Refurbished<br>Mobiles</span>
+         </div>
+         <div class="col slick-active">
+            <span>Jaw Droping<br>Deal</span>
+         </div>
+         <div class="col slick-active">
+           <span>Foxsky<br>India</span>
+         </div>
+         <div class="col slick-active">
+           <span>Intel</span>
+        </div>
+      </div>
+    </div>
+  </div>  
+  <div class="col-2 justify-content-center"> Hello </div>
+</div>
+           
+        
+<!-- 
+  <div class="tabbing">
+    <div class="tabbing_products crousel_products">
+        <ul id="StrategicSale2" class="imgScroll regular slick-initialized slick-slider">
+           <button type="button" class="slick-prev slick-arrow slick-disabled">Previous</button> -
+          <div aria-live="polite" class="slick-list draggable">
+            <div class="slick-track">
+                <a onclick="hometracking()">
+                  <img class="pic_sizzing_order"  src="./images/keypad_mobile.jpg">
+                  <h5>HOTLINE H310 (Dual Sim, 1.8 Inch Display, 1000 Mah Battery)</h5>
+                  <p>₹589<strike>₹1599</strike>
+                    <span class="discount_off">63% off</span>
+                  </p>
+                </a>
+                  <a onclick="hometracking()">
+                    <img class="pic_sizzing_order" src="./images/women_dress.jpg">
+                    <h4>Oceanista Orange Floral Maxi Dress for Women</h4>
+                    <p>₹389<strike>₹1999</strike>
+                      <span class="discount_off">81% off</span>
+                    </p>
+                  </a>
+                  <a onclick="hometracking()">
+                    <img class="pic_sizzing_order" src="./images/men_cream.jpg">
+                    <h4>The Menshine Anti Acne Neem Face Wash Face Wash (100 G)</h4>
+                    <p>₹219<strike>₹499</strike>  
+                    <span class="discount_off">56% off</span>
+                  </p>
+                </a>
+                <a onclick="hometracking()" >
+                  <img class="pic_sizzing_order" src="./images/wale_design.jpg">
+                  <h4>Sketchfab Om Bhur Bhuva Swaha Wall Hanging Decorative Item for Home  Office Gift Items (2530349)</h4>
+                  <p>₹399<strike>₹999</strike>
+                    <span class="discount_off">60% off</span>
+                  </p>
+                </a>
+                <a onclick="hometracking()">
+                  <img class="pic_sizzing_order" src="./images/carcoal_creamss.jpg">
+                  <h4>Globus Naturals Charcoal Anti-Pollution Face Care Combo (Pack Of 1 Face Wash, 1 Face Scrub, 1 Peel Off Mask) 100gms Each</h4>
+                  <p>₹197<strike>₹999</strike>
+                    <span class="discount_off">80% off</span>
+                  </p>
+                </a>
+                <a onclick="hometracking()" >
+                  <img class="pic_sizzing_order" src="./images/men_shirt.jpg">
+                  <h4>Baleshwar Men Maroon Solid Formal Shirt (Pack of 1 )</h4>
+                  <p>₹314<strike>₹1099</strike>
+                    <span class="discount_off">71% off</span>
+                  </p>
+                </a>
+                <a onclick="hometracking()">
+                  <img class="pic_sizzing_order" src="./images/kids_tshirt.jpg">
+                  <h4>JOLLIFY Black Round Neck Printed Crop Top Women</h4>
+                  <p>₹349<strike>₹999</strike>
+                    <span class="discount_off">65% off</span>
+                  </p>
+                </a>
+                <a onclick="hometracking()">
+                  <img class="pic_sizzing_order" src="./images/ear_budds.jpg">
+                  <h4>Wox F9 TWS True Wireless Stereo Earbuds Bluetooth Headset &nbsp;(Black, True Wireless)</h4>
+                  <p>₹449<strike>₹999</strike>
+                    <span class="discount_off">55% off</span>
+                  </p>
+                </a>
+                <a onclick="hometracking()">
+                  <img class="pic_sizzing_order" src="./images/last _pic_creams.jpg">
+                  <h4>EARTH KING Pure Kashmiri Shilajit/Shilajit Resin (Semi Liquid) for Strength  and  Power 20Gm</h4>
+                  <p>₹839<strike>₹1399</strike>
+                    <span class="discount_off">40% off</span>
+                  </p>
+                </a>
+            </div>
+          </div>
+          <!-- <button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;" aria-disabled="false">Next</button> -
+        </ul>
+    </div>
+</div>-->
+
+<!-- second one --
+<div class="tabbing">
+  <div class="tabbing_products crousel_products">
+      <ul id="StrategicSale2" class="imgScroll regular slick-initialized slick-slider">
+        <!-- <button type="button" class="slick-prev slick-arrow slick-disabled">Previous</button> -
+        <div aria-live="polite" class="slick-list draggable">
+          <div class="slick-track">
+              <a onclick="hometracking()">
+                <img class="pic_sizzing_order" src="./images/charge_ware.jpg">
+                <h4>HOTLINE H310 (Dual Sim, 1.8 Inch Display, 1000 Mah Battery)</h4>
+                <p>₹589<strike>₹1599</strike>
+                  <span class="discount_off">63% off</span>
+                </p>
+              </a>
+                <a onclick="hometracking()">
+                  <img class="pic_sizzing_order" src="./images/adaptar.jpg">
+                  <h4>Oceanista Orange Floral Maxi Dress for Women</h4>
+                  <p>₹389<strike>₹1999</strike>
+                    <span class="discount_off">81% off</span>
+                  </p>
+                </a>
+                <a onclick="hometracking()">
+                  <img class="pic_sizzing_order" src="./images/smart_watch.jpg">
+                  <h4>The Menshine Anti Acne Neem Face Wash Face Wash (100 G)</h4>
+                  <p>₹219<strike>₹499</strike>
+                    
+                  <span class="discount_off">56% off</span>
+                </p>
+              </a>
+              <a onclick="hometracking()" >
+                <img class="pic_sizzing_order" src="./images/ear_budds.jpg">
+                <h4>Sketchfab Om Bhur Bhuva Swaha Wall Hanging Decorative Item for Home  Office Gift Items (2530349)</h4>
+                <p>₹399<strike>₹999</strike>
+                  <span class="discount_off">60% off</span>
+                </p>
+              </a>
+              <a onclick="hometracking()">
+                <img class="pic_sizzing_order" src="./images/cameras.jpg">
+                <h4>Globus Naturals Charcoal Anti-Pollution Face Care Combo (Pack Of 1 Face Wash, 1 Face Scrub, 1 Peel Off Mask) 100gms Each</h4>
+                <p>₹197<strike>₹999</strike>
+                  <span class="discount_off">80% off</span>
+                </p>
+              </a>
+              <a onclick="hometracking()" >
+                <img class="pic_sizzing_order" src="./images/power_battery.jpg">
+                <h4>Baleshwar Men Maroon Solid Formal Shirt (Pack of 1 )</h4>
+                <p>₹314<strike>₹1099</strike>
+                  <span class="discount_off">71% off</span>
+                </p>
+              </a>
+              <a onclick="hometracking()">
+                <img class="pic_sizzing_order" src="./images/mobile_supporter.jpg">
+                <h4>JOLLIFY Black Round Neck Printed Crop Top Women</h4>
+                <p>₹349<strike>₹999</strike>
+                  <span class="discount_off">65% off</span>
+                </p>
+              </a>
+              <a onclick="hometracking()">
+                <img class="pic_sizzing_order" src="./images/usb.jpg">
+                <h4>Wox F9 TWS True Wireless Stereo Earbuds Bluetooth Headset &nbsp;(Black, True Wireless)</h4>
+                <p>₹449<strike>₹999</strike>
+                  <span class="discount_off">55% off</span>
+                </p>
+              </a>
+          </div>
+        </div>
+        <!-- <button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;" aria-disabled="false">Next</button> -
+      </ul>
+  </div>
+</div>-->
+
+
+<!-- fourth one --
+
+<div class="tabbing">
+  <div class="tabbing_products crousel_products">
+      <ul id="StrategicSale2" class="imgScroll regular slick-initialized slick-slider">
+         <button type="button" class="slick-prev slick-arrow slick-disabled">Previous</button> --
+        <div aria-live="polite" class="slick-list draggable">
+          <div class="slick-track">
+              <a onclick="hometracking()">
+                <img class="pic_sizzing_order" src="./images/model_shoes.jpg">
+                <h4>HOTLINE H310 (Dual Sim, 1.8 Inch Display, 1000 Mah Battery)</h4>
+                <p>₹589<strike>₹1599</strike>
+                  <span class="discount_off">63% off</span>
+                </p>
+              </a>
+                <a onclick="hometracking()">
+                  <img class="pic_sizzing_order" src="./images/sandeals.jpg">
+                  <h4>Oceanista Orange Floral Maxi Dress for Women</h4>
+                  <p>₹389<strike>₹1999</strike>
+                    <span class="discount_off">81% off</span>
+                  </p>
+                </a>
+                <a onclick="hometracking()">
+                  <img class="pic_sizzing_order" src="images/white_shoe.jpg">
+                  <h4>The Menshine Anti Acne Neem Face Wash Face Wash (100 G)</h4>
+                  <p>₹219<strike>₹499</strike>
+                    
+                  <span class="discount_off">56% off</span>
+                </p>
+              </a>
+              <a onclick="hometracking()" >
+                <img class="pic_sizzing_order" src="./images/shoe_pair.jpg">
+                <h4>Sketchfab Om Bhur Bhuva Swaha Wall Hanging Decorative Item for Home  Office Gift Items (2530349)</h4>
+                <p>₹399<strike>₹999</strike>
+                  <span class="discount_off">60% off</span>
+                </p>
+              </a>
+              <a onclick="hometracking()">
+                <img class="pic_sizzing_order" src="./images/last_pair.jpg">
+                <h4>Globus Naturals Charcoal Anti-Pollution Face Care Combo (Pack Of 1 Face Wash, 1 Face Scrub, 1 Peel Off Mask) 100gms Each</h4>
+                <p>₹197<strike>₹999</strike>
+                  <span class="discount_off">80% off</span>
+                </p>
+              </a>
+              <a onclick="hometracking()" >
+                <img class="pic_sizzing_order" src="./images/view_more.jpg">
+                <h4>Baleshwar Men Maroon Solid Formal Shirt (Pack of 1 )</h4>
+                <p>₹314<strike>₹1099</strike>
+                  <span class="discount_off">71% off</span>
+                </p>
+              </a>
+          </div>
+        </div>
+        <!-- <button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;" aria-disabled="false">Next</button> -->
+     <!-- </ul>
+  </div>      
+</div> -->
+<!-- 
+<div class="row cat_promotion_box sc_shop_price">
+      <h2>Budget Bazaar</h2>
+      <ul style="height: auto;">
+          <a title="Under Rs. 99" onclick="hometracking()"><img class="box_size" src="./images/99.jpg" alt=""></a>
+        <a title="Under Rs. 199" onclick="hometracking()"><img class="box_size"  src="./images/199.jpg" alt=""></a>
+        <a title="Under Rs. 399" onclick="hometracking()"><img class="box_size"  src="./images/399.jpg" alt=""></a>
+        <a title="Under Rs. 599" onclick="hometracking()"><img class="box_size" src="./images/599.jpg" alt=""></a>
+        <a title="Under Rs. 799" onclick="hometracking()"><img class="box_size" src="./images/799.jpg" alt=""></a>
+      </ul>
+  </div>
+
+<!-- fivth one -->
+<!----
+<div class="Gyms">
+  <div class="tabbing_products crousel_products">
+      <ul id="StrategicSale2" class="imgScroll regular slick-initialized slick-slider">
+        <div  class="slick-list draggable">
+          <div class="slick-track">
+              <a onclick="hometracking()">
+                <img class="pic_sizzing_order" src="./images/thumb.jpg">
+                <h5 id="content_size">Medical Equipment & Accessories</h5>
+                  <p>Upto 80% Off</p>
+              </a>
+                <a onclick="hometracking()">
+                  <img class="pic_sizzing_order" src="./images/smart_watch.jpg">
+                 <h5 id="content_size"> Fitness Bands & Watches</h5>
+                 <p>Upto 80% Off</p>
+                </a>
+                <a onclick="hometracking()">
+                  <img class="pic_sizzing_order" src="./images/water_bott.jpg">
+                  <h5 id="content_size">Bottles &amp; Shakers</h5>
+                  <p>Upto 80% Off</p>
+              </a>
+              <a onclick="hometracking()" >
+                <img class="pic_sizzing_order" src="./images/nutrishon.jpg">
+                <h5 id="content_size">Nutrition &amp; Supplements</h5>
+              </a>
+              <a onclick="hometracking()">
+                <img class="pic_sizzing_order" src="./images/skking.jpg">
+                <h5 id="content_size">Skipping Ropes</h5>
+                <p>Starting @ 199</p>
+              </a>
+              <a onclick="hometracking()" >
+                <img class="pic_sizzing_order" src="./images/matt.jpg">
+                  <h5  id="content_size">Yoga Mats</h5>
+                  <p>Upto 80% Off</p>
+              </a>
+  
+          </div>
+        </div>
+      </ul>
+  </div>
+</div>-->
+
+
+<!----
+<div class="sc_trust">
+  <div class="wrapper">
+  <h2><i></i>Band Of Trust<i></i></h2>
+      <p class="sc_great_selection"><span>Great Selection</span></p>
+      <p class="sc_low_price"><span>Low Price</span></p>
+      <p class="sc_speedy_delivery"><span>Speedy Delivery</span></p>
+  </div>
+</div>-->
+
+
+ <!--footer part-->     
+ <!----<footer>
+      <div class="footer_nav">
+          <div class="wrapper">
+              <div class="sc_callouts">
+                  <h4 class="Shopper_central">Shopper Central</h4>
+                  <ul>
+                       <li><a>Easy Returns &amp; Replacement</a></li>
+                  <li><a id="signupLog">Sign In/Register</a></li>  
+                      <li><a>Our Policies</a></li>
+                      <li><a >CluesBucks</a></li>
+                      <li><a >Payment Options</a></li>
+                      <li><a >ShopClues Surety</a></li>
+                      <li><a >FAQs (Help)</a></li>
+                      <li><a >Service Centers</a></li>                        
+                      <li><a>User Agreement</a></li> 
+                  </ul>
+              </div>
+              <div class="sc_callouts">
+                  <h4>Merchant Central</h4>
+                  <ul>
+                      <li><a >Merchant Panel</a></li>
+                      <li><a >How To Sell</a></li>
+                      <li><a >Commission Structure</a></li>
+                      <li><a >Fullfillment Policy</a></li>
+                      <li><a >Policies &amp; Rules</a></li>
+                      <li><a >User Agreement</a></li>
+                      <li><a >Testimonials</a></li>
+                      <li><a >Seller Summit</a></li>
+                      <li><a >Merchant Blog</a></li>
+                      <li><a >Developer Resources</a></li>
+                  </ul>
+              </div>
+              <div class="sc_callouts">
+                  <h4><a>About Us</a></h4>
+                  <ul>
+                      <li><a>History</a></li>
+                      <li><a>Band of Trust</a></li>
+                      <li><a>In the News</a></li>
+                      <li><a>Awards</a></li>
+                      <li><a>Careers</a></li>
+                       <li><a>Blog</a></li>
+                  </ul>
+              </div>
+              <div class="sc_callouts">
+                  <h4>Contact Us</h4>
+                  <ul>
+                      <li><a>Merchant Support</a></li>
+                      <li><a>Bulk Orders</a></li>
+                      <li><a>Press</a></li>
+                  </ul>
+              </div>
+              <div class="sc_callouts">
+                  <h4>Press</h4>
+                  <ul>
+                      <li><a>In the News</a></li>
+                  </ul>
+              </div>
+              <div class="sc_nl-signup" style="display:none">
+                  <h5>Special Offers</h5>
+                  <p>Sign Up To Access Our Special Offers</p>
+                  <input type="text" placeholder="Enter your email" name="">
+                  <input type="submit" value="Search" name="">
+              </div>
+          </div>
+      </div>
+      <div class="sc_connection">
+          <div class="wrapper">
+              <div class="sc_socialconnection">
+                  <h3>Keep In Touch</h3>
+                    
+              </div>
+              <div class="sc_trustedpayment" style="font-size:16px; font-weight:600; margin: 30px 0 10px 0; right:0;" >
+                  <p>100% Secure and Trusted Payment</p>
+                  <img class="payments" style="height: 33px; width: 591px;" src="//images.shopclues.com/images/ui/pgateway_dkt@2x.png" alt="">
+              </div>
+          </div>
+       </div>
+     
+      <div class="scfooter_info">
+          <div class="wrapper">
+              <h1>Online Shopping in India @www.ShopClues.com</h1>
+              <h2>India’s Asli Online Shopping Hub – www.ShopClues.com</h2> Back in 2011, when people were hopping from one Store to another for best bargains on an overall household’s monthly bill, ShopClues was being developed as a budget-friendly online bazaar in India. www.ShopClues.com was then given a shape and strategy in 2012 as India’s First &amp; Largest Fully Managed Marketplace.
+              <h2>Ting se Leke Tong – with Aflatooni Products!</h2> ‘What you Think is What you Get’ isn’t just a saying at ShopClues. With over 2.8 crore products, you can get just about everything that you can imagine at ShopClues. From usual products in Electronics, Fashion, Home &amp; Kitchen, to unusual products like cow dung cakes, Knife Sharpeners, etc., ShopClues tops in everything. So, you see what we mean when we say Aflatooni Products! ShopClues has revolutionized the conceptual Online Shopping in India with initiatives such as Ghar Wapsi Sale, Bigger than the Biggest Thank You Sale, #EkZeroKum Sale etc. Amongst many other shopping sites, ShopClues is the leader in unstructured categories like Daily Utilities, Garden Needs, Hardware, Kitchen Storage, and others.
+              <h2>Believable Shopping @ Unbelievable Prices</h2> Every day, ShopClues delights millions of discount-hunters with Paisa-Vasool Shopping Experience with prices as low as Re.1. We are the first ones to introduce the idea of ‘Sab Kuch Wholesale Ke Rate Par’ on an online platform with shopping options to both wholesale as well as retail seekers.
+              <h2>Experiencing the neighbourhood Local Bazaar</h2> ShopClues brings the experience of India’s Flea Markets online, in the form of its weekly properties - Sunday Flea Market, Refreshing Monday Sale, Triple Value Friday Sale, and Wednesday Brand Bazaar. Another property capturing the essence of regional Indian shopping is called NRH (National Regional Heritage), which gives a sneak-peek into India’s Cultural Gullies at very reasonable prices. These online markets showcase products with range so wide, and prices so low, that they beat the offline neighbourhood markets of India. The concept especially works incredibly well with the middle class population habituated in tier 2 &amp; 3 cities.
+              <h2>An Online Selling Space for SME Merchants</h2> Working as a marketplace, ShopClues has been well-supported by a bourgeoning community of certified merchants in India. Unlike various other online shopping sites, ShopClues has achieved the largest merchant base of over 3.5 Lakhs. This online shopping website is creating history by empowering local and regional merchants, primarily from Tier 2 &amp; 3 cities and making them a national enterprise at ShopClues.
+              <h2>ShopClues Surety</h2> The <a>ShopClues Surety Program</a>, was launched in order to ensure a hassle free shopping experience for its customers. This premium service is in addition to the ShopClues Buyer Protection program which ensures an extensive 5 point quality check of the products in order to give Customers a seamless shopping experience. In order to make it user-friendly, the platform marks out the rating of the products classified into ‘Best Buy’, ‘Great Buy’, ‘Value Buy’ or ‘Brand Authorized’. This allows the customer to make an optimal purchase decision while shopping on the platform.
+              <h2>ShopClues VIP Club</h2>Get Rewards Every time you Shop! Join the VIP Club and Get 5% Cashback on Every Order. That's not all! With Free Membership, No Hidden Costs &amp; No Registration Procedures, get Exclusive Benefits on Grofers, Lenskart, Food Panda &amp; Hi Care Pest Control Services.
+
+              <a>Join the Club Now</a>                
+          </div>
+       </div>
+       <div class="scfooter_bottom">
+          <div class="wrapper">
+              <ul>
+                  <li><a>Privacy Policy</a></li>
+                  <li><a>User Agreement</a></li>
+                  <li><a>Notes to Security Practices</a></li>
+                  <li><a>Compliance</a></li>
+                  <li><a>Wall of Fame</a></li>
+              </ul>
+              <div class="sc_copyright">
+                  <p>Copyright © 2011-2024 Clues Network Pvt. Ltd.</p>
+              </div>
+           </div>
+      </div>
+  </footer>-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"  
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js">
+    </script>
+</body>
+</html>
