@@ -12,7 +12,7 @@
 </head>
 <body>
   <!--Header part-->
-  <header class="head_container">
+  <div class="head_container">
         <div class="constant_navbar_1">
             <div class="sell_with_us"><a class="text_" href="#">Sell With Us</a></div>     
             <div class="contact_us"><a class="text_" href="#">Contact Us</a></div>
@@ -303,7 +303,7 @@
             <a class="home_coloumn2">Furnishing Combos</a>
            </div>
     
-           <div class="col home_coloumn">
+           <div class="col-3 home_coloumn">
             <strong>Lighting Solutions</strong>
             <a class="home_coloumn3">Led bulbs</a>
             <a class="home_coloumn3">Tubelights & Battens</a>
@@ -446,7 +446,7 @@
            </div>
     
           <div class="col sports_coloumn">
-            <strong>Daily Needs & Essentials</strong>
+            <strong>Daily Needs <br>& Essentials</strong>
            <a class="sports_coloumn5">Food & Beverages</a>
            <a class="sports_coloumn5">Household Supplies</a>
            <a class="sports_coloumn5">Pet Suplies</a>
@@ -460,7 +460,7 @@
 
         
         <div onmouseover="displayCard7()" class="card-anim" id="display-card7" style="display:flex; justify-content:center">
-          <div class="card p-4" style="height:400px;width:100% !important">
+          <div class="card ps-4 " style="height:400px;width:100%">
             <div class="row">
           <div class="col essentials_coloumn">
            <strong>Food and Beverage</strong>
@@ -481,32 +481,36 @@
             <a class="essentials_coloumn2">Disposables</a>
             <a class="essentials_coloumn2">Pooja Essentials</a>
             <a class="essentials_coloumn2">Repellents & Devices</a>
-            <br>
+          </div>
+
+          <div class="col essentials_coloumn">
             <strong>Nutrition & Supplements</strong>
-            <a class="essentials_coloumn2">Ayurveda & Herbal</a>
-            <a class="essentials_coloumn2">Family Nutrition</a>
-            <a class="essentials_coloumn2">Vitamins and Minerals</a>
+            <a class="essentials_coloumn3">Ayurveda & Herbal</a>
+            <a class="essentials_coloumn3">Family Nutrition</a>
+            <a class="essentials_coloumn3">Vitamins and Minerals</a>
            </div>
     
            <div class="col essentials_coloumn">
             <strong>Personal Care and Grooming</strong>
-            <a class="essentials_coloumn3">Men's Grooming</a>
-            <a class="essentials_coloumn3">Feminine Hygiene</a>
-            <a class="essentials_coloumn3">Oral Care</a>
-            <a class="essentials_coloumn3">Hair Care</a>
-            <a class="essentials_coloumn3">Fragrances</a>
-            <br>
+            <a class="essentials_coloumn4">Men's Grooming</a>
+            <a class="essentials_coloumn4">Feminine Hygiene</a>
+            <a class="essentials_coloumn4">Oral Care</a>
+            <a class="essentials_coloumn4">Hair Care</a>
+            <a class="essentials_coloumn4">Fragrances</a>
+           </div>
+           
+            <div class="col essentials_coloumn">
             <strong>Baby Care</strong>
-            <a class="essentials_coloumn3">Baby Food</a>
-            <a class="essentials_coloumn3">Bath & Skin Care</a>
-            <a class="essentials_coloumn3">Diapers & Wipes</a>
+            <a class="essentials_coloumn5">Baby Food</a>
+            <a class="essentials_coloumn5">Bath & Skin Care</a>
+            <a class="essentials_coloumn5">Diapers & Wipes</a>
            </div>
           </div>
           </div>
         </div>
     
-         <div onmouseover="displayCard8()" class="card-anim" id="display-card8" style="display:flex; justify-content:center">
-          <div class="card p-4" style="height:400px;width:100% !important">
+        <div onmouseover="displayCard8()" class="card-anim" id="display-card8" style="display:flex; justify-content:center">
+          <div class="card p-4" style="height:400px; width:100%!important">
             <div class="row">
            <div class="col offers_coloumn">
             <strong>All Officers</strong>
@@ -537,24 +541,28 @@
             <a class="offers_coloumn3">Under 399</a>
             <a class="offers_coloumn3">Under 599</a>
             <a class="offers_coloumn3">500 & Above</a>
-            <strong>Shop By Discount</strong>
-            <a class="offers_coloumn3">Upto 25% Off</a>
-            <a class="offers_coloumn3">Upto 50% Off</a>
-            <a class="offers_coloumn3">Upto 60% Off</a>
-            <a class="offers_coloumn3">Upto 80% Off</a>
            </div>
+
+            <div class="col-3 offers_coloumn">
+            <strong>Shop By Discount</strong>
+            <a class="offers_coloumn4">Upto 25% Off</a>
+            <a class="offers_coloumn4">Upto 50% Off</a>
+            <a class="offers_coloumn4">Upto 60% Off</a>
+            <a class="offers_coloumn4">Upto 80% Off</a>
+           </div>
+
     
            <div class="col offers_coloumn">
             <strong>New Arrivals</strong>
-            <a class="offers_coloumn4">Lifestyle</a>
-            <a class="offers_coloumn4">Home & Living</a>
-            <a class="offers_coloumn4">Electronics</a>
-            <a class="offers_coloumn4">Daily Utility</a>
+            <a class="offers_coloumn5">Lifestyle</a>
+            <a class="offers_coloumn5">Home & Living </a>
+            <a class="offers_coloumn5">Electronics Iteams</a>
+            <a class="offers_coloumn5">Daily Utility</a>
            </div>
           </div>
           </div>
         </div> 
-    
+  </div>
       <div class="navbar_Container2">
         <nav class="NavBar_2">
             <a class="text_size_2 text_size2">Jaw Dropping Deals</a>
@@ -568,249 +576,164 @@
             <a class="text_size_9 text_size2">Bags & Luggage</a>
         </nav>
       </div>
-  </header>
-
-<!---- main_container part-->
-<div class="container-fluid pt-4 pb-2 custom-row">
-  <div class="card banner_container col-8">
-   <div class="col-sm-12" style="height:345px;">
-     <div class="row">
-      <div class="col silder_bar"><img class="Refurbished_vintage" src="./images/banner_bar5.jpg" alt=""></div>
-      
-      </div>
     </div>
 
+<!---- main_container part-->
+<div class="container-fluid pb-2 custom-row">
+  <div class="card banner_container col-9">
+   <div class="col-sm-12 mySlides" style="height:345px;">
+     <div class="row">
+      <div class="col silder_bar"><img id="image1" class="Refurbished_vintage" src="./images/banner_bar5.jpg" alt="">
+         <img id="image2" class="Refurbished_new" src="./images/banner_bar4.jpg" alt="">
+          <img id="image3" class="Jaw_Droping" src="./images/banner_bar1.jpg" alt="">
+            <img id="image4" class="Foxsky" src="./images/banner_bar3.jpg" alt="">
+             <img id="image5" class="Intel" src="./images/banner_bar2.jpg" alt="">
+      </div>
+     </div>
+    </div>
     <div class="col-sm-12 slick-slider">
-      <div class="row ps-2 pt-2 pe-2">
-         <div class="col slick-current slick-active">
-            <span>Refurbished<br>vintage Phone</span>
-         </div>
-         <div class="col slick-active">
-           <span>Refurbished<br>Mobiles</span>
-         </div>
-         <div class="col slick-active">
-            <span>Jaw Droping<br>Deal</span>
-         </div>
-         <div class="col slick-active">
-           <span>Foxsky<br>India</span>
-         </div>
-         <div class="col slick-active">
-           <span>Intel</span>
+      <div class="row ps-3 pt-2 pe-3">
+         <div class="slick-active">
+            <span onmouseover="displayImageCard(5)" class="name_hove1" onclick="showSlide(0)">Refurbished<br>vintage Phone</span>
+            <span onmouseover="displayImageCard(4)" class="name_hove2" onclick="showSlide(1)">Refurbished<br>Mobiles</span>
+            <span onmouseover="displayImageCard(1)" class="name_hove3" onclick="showSlide(2)">Jaw Droping<br>Deal</span>
+            <span onmouseover="displayImageCard(3)" class="name_hove4" onclick="showSlide(3)">Foxsky<br>India</span>
+            <span onmouseover="displayImageCard(2)" class="name_hove5" onclick="showSlide(4)">Intel</span>
         </div>
       </div>
     </div>
   </div>  
-  <div class="col-2 justify-content-center"> Hello </div>
-</div>
-           
-        
-<!-- 
-  <div class="tabbing">
-    <div class="tabbing_products crousel_products">
-        <ul id="StrategicSale2" class="imgScroll regular slick-initialized slick-slider">
-           <button type="button" class="slick-prev slick-arrow slick-disabled">Previous</button> -
-          <div aria-live="polite" class="slick-list draggable">
-            <div class="slick-track">
-                <a onclick="hometracking()">
-                  <img class="pic_sizzing_order"  src="./images/keypad_mobile.jpg">
-                  <h5>HOTLINE H310 (Dual Sim, 1.8 Inch Display, 1000 Mah Battery)</h5>
-                  <p>₹589<strike>₹1599</strike>
-                    <span class="discount_off">63% off</span>
-                  </p>
-                </a>
-                  <a onclick="hometracking()">
-                    <img class="pic_sizzing_order" src="./images/women_dress.jpg">
-                    <h4>Oceanista Orange Floral Maxi Dress for Women</h4>
-                    <p>₹389<strike>₹1999</strike>
-                      <span class="discount_off">81% off</span>
-                    </p>
-                  </a>
-                  <a onclick="hometracking()">
-                    <img class="pic_sizzing_order" src="./images/men_cream.jpg">
-                    <h4>The Menshine Anti Acne Neem Face Wash Face Wash (100 G)</h4>
-                    <p>₹219<strike>₹499</strike>  
-                    <span class="discount_off">56% off</span>
-                  </p>
-                </a>
-                <a onclick="hometracking()" >
-                  <img class="pic_sizzing_order" src="./images/wale_design.jpg">
-                  <h4>Sketchfab Om Bhur Bhuva Swaha Wall Hanging Decorative Item for Home  Office Gift Items (2530349)</h4>
-                  <p>₹399<strike>₹999</strike>
-                    <span class="discount_off">60% off</span>
-                  </p>
-                </a>
-                <a onclick="hometracking()">
-                  <img class="pic_sizzing_order" src="./images/carcoal_creamss.jpg">
-                  <h4>Globus Naturals Charcoal Anti-Pollution Face Care Combo (Pack Of 1 Face Wash, 1 Face Scrub, 1 Peel Off Mask) 100gms Each</h4>
-                  <p>₹197<strike>₹999</strike>
-                    <span class="discount_off">80% off</span>
-                  </p>
-                </a>
-                <a onclick="hometracking()" >
-                  <img class="pic_sizzing_order" src="./images/men_shirt.jpg">
-                  <h4>Baleshwar Men Maroon Solid Formal Shirt (Pack of 1 )</h4>
-                  <p>₹314<strike>₹1099</strike>
-                    <span class="discount_off">71% off</span>
-                  </p>
-                </a>
-                <a onclick="hometracking()">
-                  <img class="pic_sizzing_order" src="./images/kids_tshirt.jpg">
-                  <h4>JOLLIFY Black Round Neck Printed Crop Top Women</h4>
-                  <p>₹349<strike>₹999</strike>
-                    <span class="discount_off">65% off</span>
-                  </p>
-                </a>
-                <a onclick="hometracking()">
-                  <img class="pic_sizzing_order" src="./images/ear_budds.jpg">
-                  <h4>Wox F9 TWS True Wireless Stereo Earbuds Bluetooth Headset &nbsp;(Black, True Wireless)</h4>
-                  <p>₹449<strike>₹999</strike>
-                    <span class="discount_off">55% off</span>
-                  </p>
-                </a>
-                <a onclick="hometracking()">
-                  <img class="pic_sizzing_order" src="./images/last _pic_creams.jpg">
-                  <h4>EARTH KING Pure Kashmiri Shilajit/Shilajit Resin (Semi Liquid) for Strength  and  Power 20Gm</h4>
-                  <p>₹839<strike>₹1399</strike>
-                    <span class="discount_off">40% off</span>
-                  </p>
-                </a>
-            </div>
-          </div>
-          <!-- <button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;" aria-disabled="false">Next</button> -
-        </ul>
-    </div>
-</div>-->
-
-<!-- second one --
-<div class="tabbing">
-  <div class="tabbing_products crousel_products">
-      <ul id="StrategicSale2" class="imgScroll regular slick-initialized slick-slider">
-        <!-- <button type="button" class="slick-prev slick-arrow slick-disabled">Previous</button> -
-        <div aria-live="polite" class="slick-list draggable">
-          <div class="slick-track">
-              <a onclick="hometracking()">
-                <img class="pic_sizzing_order" src="./images/charge_ware.jpg">
-                <h4>HOTLINE H310 (Dual Sim, 1.8 Inch Display, 1000 Mah Battery)</h4>
-                <p>₹589<strike>₹1599</strike>
-                  <span class="discount_off">63% off</span>
-                </p>
-              </a>
-                <a onclick="hometracking()">
-                  <img class="pic_sizzing_order" src="./images/adaptar.jpg">
-                  <h4>Oceanista Orange Floral Maxi Dress for Women</h4>
-                  <p>₹389<strike>₹1999</strike>
-                    <span class="discount_off">81% off</span>
-                  </p>
-                </a>
-                <a onclick="hometracking()">
-                  <img class="pic_sizzing_order" src="./images/smart_watch.jpg">
-                  <h4>The Menshine Anti Acne Neem Face Wash Face Wash (100 G)</h4>
-                  <p>₹219<strike>₹499</strike>
-                    
-                  <span class="discount_off">56% off</span>
-                </p>
-              </a>
-              <a onclick="hometracking()" >
-                <img class="pic_sizzing_order" src="./images/ear_budds.jpg">
-                <h4>Sketchfab Om Bhur Bhuva Swaha Wall Hanging Decorative Item for Home  Office Gift Items (2530349)</h4>
-                <p>₹399<strike>₹999</strike>
-                  <span class="discount_off">60% off</span>
-                </p>
-              </a>
-              <a onclick="hometracking()">
-                <img class="pic_sizzing_order" src="./images/cameras.jpg">
-                <h4>Globus Naturals Charcoal Anti-Pollution Face Care Combo (Pack Of 1 Face Wash, 1 Face Scrub, 1 Peel Off Mask) 100gms Each</h4>
-                <p>₹197<strike>₹999</strike>
-                  <span class="discount_off">80% off</span>
-                </p>
-              </a>
-              <a onclick="hometracking()" >
-                <img class="pic_sizzing_order" src="./images/power_battery.jpg">
-                <h4>Baleshwar Men Maroon Solid Formal Shirt (Pack of 1 )</h4>
-                <p>₹314<strike>₹1099</strike>
-                  <span class="discount_off">71% off</span>
-                </p>
-              </a>
-              <a onclick="hometracking()">
-                <img class="pic_sizzing_order" src="./images/mobile_supporter.jpg">
-                <h4>JOLLIFY Black Round Neck Printed Crop Top Women</h4>
-                <p>₹349<strike>₹999</strike>
-                  <span class="discount_off">65% off</span>
-                </p>
-              </a>
-              <a onclick="hometracking()">
-                <img class="pic_sizzing_order" src="./images/usb.jpg">
-                <h4>Wox F9 TWS True Wireless Stereo Earbuds Bluetooth Headset &nbsp;(Black, True Wireless)</h4>
-                <p>₹449<strike>₹999</strike>
-                  <span class="discount_off">55% off</span>
-                </p>
-              </a>
-          </div>
-        </div>
-        <!-- <button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;" aria-disabled="false">Next</button> -
-      </ul>
+  <div class="col-2  side_bar" style="justify-content:center">
+    <div class="col shop_now "><img class="side_bar1" src="./images/shop_now1.jpg" alt=""></div>
+    <div class="col shop_now"><img class="side_bar1" src="./images/shop_now2.jpg" alt=""></div>
+    <div class="col shop_now"><img class="side_bar1"  src="./images/shop_now3.jpg" alt=""></div>
   </div>
-</div>-->
-
-
-<!-- fourth one --
-
-<div class="tabbing">
-  <div class="tabbing_products crousel_products">
-      <ul id="StrategicSale2" class="imgScroll regular slick-initialized slick-slider">
-         <button type="button" class="slick-prev slick-arrow slick-disabled">Previous</button> --
-        <div aria-live="polite" class="slick-list draggable">
-          <div class="slick-track">
-              <a onclick="hometracking()">
-                <img class="pic_sizzing_order" src="./images/model_shoes.jpg">
-                <h4>HOTLINE H310 (Dual Sim, 1.8 Inch Display, 1000 Mah Battery)</h4>
-                <p>₹589<strike>₹1599</strike>
-                  <span class="discount_off">63% off</span>
-                </p>
-              </a>
-                <a onclick="hometracking()">
-                  <img class="pic_sizzing_order" src="./images/sandeals.jpg">
-                  <h4>Oceanista Orange Floral Maxi Dress for Women</h4>
-                  <p>₹389<strike>₹1999</strike>
-                    <span class="discount_off">81% off</span>
-                  </p>
-                </a>
-                <a onclick="hometracking()">
-                  <img class="pic_sizzing_order" src="images/white_shoe.jpg">
-                  <h4>The Menshine Anti Acne Neem Face Wash Face Wash (100 G)</h4>
-                  <p>₹219<strike>₹499</strike>
-                    
-                  <span class="discount_off">56% off</span>
-                </p>
-              </a>
-              <a onclick="hometracking()" >
-                <img class="pic_sizzing_order" src="./images/shoe_pair.jpg">
-                <h4>Sketchfab Om Bhur Bhuva Swaha Wall Hanging Decorative Item for Home  Office Gift Items (2530349)</h4>
-                <p>₹399<strike>₹999</strike>
-                  <span class="discount_off">60% off</span>
-                </p>
-              </a>
-              <a onclick="hometracking()">
-                <img class="pic_sizzing_order" src="./images/last_pair.jpg">
-                <h4>Globus Naturals Charcoal Anti-Pollution Face Care Combo (Pack Of 1 Face Wash, 1 Face Scrub, 1 Peel Off Mask) 100gms Each</h4>
-                <p>₹197<strike>₹999</strike>
-                  <span class="discount_off">80% off</span>
-                </p>
-              </a>
-              <a onclick="hometracking()" >
-                <img class="pic_sizzing_order" src="./images/view_more.jpg">
-                <h4>Baleshwar Men Maroon Solid Formal Shirt (Pack of 1 )</h4>
-                <p>₹314<strike>₹1099</strike>
-                  <span class="discount_off">71% off</span>
-                </p>
-              </a>
-          </div>
-        </div>
-        <!-- <button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;" aria-disabled="false">Next</button> -->
-     <!-- </ul>
-  </div>      
+</div>
+<!--            
+<div class="products_container">
+ <div class="Slider-wrapper">
+  <ul class="image-list">
+    <img class="image-item" src="./images/keypad_mobile.jpg" alt="img1">
+    <img class="image-item" src="./images/women_dress.jpg" alt="img2">
+    <img class="image-item" src="./images/men_cream.jpg" alt="img3">
+    <img class="image-item" src="./images/wale_design.jpg" alt="img4">
+    <img class="image-item" src="./images/carcoal_creamss.jpg" alt="img5">
+    <img class="image-item" src="./images/men_shirt.jpg" alt="img6">
+    <img class="image-item" src="./images/kids_tshirt.jpg" alt="img7">
+    <img class="image-item" src="./images/ear_budds.jpg" alt="img8">
+    <img class="image-item" src="./images/last _pic_creams.jpg" alt="img9">
+  </ul>
+ </div>      
 </div> -->
 <!-- 
+<div class="container p-5" style="width: 2000px;overflow: hidden;" id="next">
+  <div class="row" style="width: 2000px;overflow: hidden;">
+     <img class="card img_Item" style="width: 200px;height:250px;" src="./images/keypad_mobile.jpg" alt="img1">
+     <img class="card img_Item" style="width: 200px;height:250px;" src="./images/women_dress.jpg" alt="img2">
+     <img class="card img_Item" style="width: 200px;height:250px;" src="./images/men_cream.jpg" alt="img3">
+     <img class="card img_Item" style="width: 200px;height:250px;" src="./images/wale_design.jpg" alt="img4">
+     <img class="card img_Item" style="width: 200px;height:250px;" src="./images/carcoal_creamss.jpg" alt="img5">
+     <img class="card img_Item" onclick="clicked()" style="width: 200px;height:250px;" src="./images/men_shirt.jpg" alt="img6">
+     <img class="card img_Item" style="width: 200px;height:250px;" src="./images/kids_tshirt.jpg" alt="img7">
+     <img class="card img_Item" style="width: 200px;height:250px;" src="./images/ear_budds.jpg" alt="img8">
+     <img class="card img_Item" style="width: 200px;height:250px;" src="./images/last _pic_creams.jpg" alt="img9">
+  </div>      
+ </div> -->
+
+ <div class="tabbing_products crousel_products">
+  <ul id="StrategicSale2" class="imgScroll regular slick-initialized slick-slider">
+    <button type="button" data-role="none" class="slick-prev slick-arrow slick-disabled" aria-label="Previous" role="button" aria-disabled="true" style="display: inline-block;">Previous</button>
+    <div aria-live="polite" class="slick-list draggable">
+      <div class="slick-track" style="opacity: 1; width: 1773px; transform: translate3d(0px, 0px, 0px);" role="listbox">
+        <li class="slick-slide slick-current slick-active" style="width: 197px;" tabindex="-1" role="option" aria-describedby="slick-slide20" data-slick-index="0" aria-hidden="false">
+          <a target="_blank" id="153166826" href="//www.shopclues.com/hotline-h310-153166826.html" om-zone="default" omnirel="D|Home|B9P1|Mobiles &amp; T|Feature |NA|153166826|Desktop Tsif Block3|StrategicSale2" onclick="hometracking(this)" data-id="StrategicSale2" tabindex="0">
+            <img data-img="https://cdn.shopclues.com/images1/thumbnails/116607/200/200/153166826-116607250-1686641152.jpg" src="https://cdn.shopclues.com/images1/thumbnails/116607/200/200/153166826-116607250-1686641152.jpg">
+            <h4>HOTLINE H310 (Dual Sim, 1.8 Inch Display, 1000 Mah Battery)</h4>
+            <p>₹589<strike>₹1599</strike>
+              <span class="discount_off">63% off</span>
+            </p>
+          </a>
+        </li>
+        <li class="slick-slide slick-active" style="width: 197px;" tabindex="-1" role="option" aria-describedby="slick-slide21" data-slick-index="1" aria-hidden="false">
+          <a target="_blank" id="153427984" href="//www.shopclues.com/oceanista-orange-floral-maxi-dress-for-women-153427984.html" om-zone="default" omnirel="D|Home|B9P2|Fashion|Womens C|Women We|153427984|Desktop Tsif Block3|StrategicSale2" onclick="hometracking(this)" data-id="StrategicSale2" tabindex="0">
+            <img data-img="https://cdn.shopclues.com/images1/thumbnails/117330/200/200/153427984-117330108-1692000879.jpg" src="https://cdn.shopclues.com/images1/thumbnails/117330/200/200/153427984-117330108-1692000879.jpg">
+            <h4>Oceanista Orange Floral Maxi Dress for Women</h4>
+            <p>₹389<strike>₹1999</strike>
+              <span class="discount_off">81% off</span>
+            </p>
+          </a>
+        </li>
+        <li class="slick-slide slick-active" style="width: 197px;" tabindex="-1" role="option" aria-describedby="slick-slide22" data-slick-index="2" aria-hidden="false">
+          <a target="_blank" id="153337856" href="//www.shopclues.com/the-menshine-anti-acne-neem-face-wash-face-wash-100-g-153337856.html" om-zone="default" omnirel="D|Home|B9P3|Daily Needs|Personal|Skin Car|153337856|Desktop Tsif Block3|StrategicSale2" onclick="hometracking(this)" data-id="StrategicSale2" tabindex="0">
+            <img data-img="https://cdn.shopclues.com/images1/thumbnails/117025/200/200/153337856-117025714-1678773680.jpg" src="https://cdn.shopclues.com/images1/thumbnails/117025/200/200/153337856-117025714-1678773680.jpg">
+            <h4>The Menshine Anti Acne Neem Face Wash Face Wash (100 G)</h4>
+            <p>₹219<strike>₹499</strike>
+              <span class="discount_off">56% off</span>
+            </p>
+          </a>
+        </li>
+        <li class="slick-slide slick-active" style="width: 197px;" tabindex="-1" role="option" aria-describedby="slick-slide23" data-slick-index="3" aria-hidden="false">
+          <a target="_blank" id="153405076" href="//www.shopclues.com/sketchfab-om-bhur-bhuva-swaha-wall-hanging-decorative-item-for-home-and-office-gift-items-2530349-153405076.html" om-zone="default" omnirel="D|Home|B9P4|Home &amp; Kitc|Decor|Wall Dec|153405076|Desktop Tsif Block3|StrategicSale2" onclick="hometracking(this)" data-id="StrategicSale2" tabindex="0">
+            <img data-img="https://cdn.shopclues.com/images1/thumbnails/117260/200/200/153405076-117260000-1689675938.jpg" src="https://cdn.shopclues.com/images1/thumbnails/117260/200/200/153405076-117260000-1689675938.jpg">
+            <h4>Sketchfab Om Bhur Bhuva Swaha Wall Hanging Decorative Item for Home  Office Gift Items (2530349)</h4>
+            <p>₹399<strike>₹999</strike>
+              <span class="discount_off">60% off</span>
+            </p>
+          </a>
+        </li>
+        <li class="slick-slide slick-active" style="width: 197px;" tabindex="-1" role="option" aria-describedby="slick-slide24" data-slick-index="4" aria-hidden="false">
+          <a target="_blank" id="153351967" href="//www.shopclues.com/globus-naturals-charcoal-anti-pollution-face-care-combo-for-men-face-wash-scrub-peel-off-mask-300g-153351967.html" om-zone="default" omnirel="D|Home|B9P5|Daily Needs|Personal|Skin Car|153351967|Desktop Tsif Block3|StrategicSale2" onclick="hometracking(this)" data-id="StrategicSale2" tabindex="0">
+            <img data-img="https://cdn.shopclues.com/images1/thumbnails/117077/200/200/153351967-117077192-1681302686.jpg" src="https://cdn.shopclues.com/images1/thumbnails/117077/200/200/153351967-117077192-1681302686.jpg">
+            <h4>Globus Naturals Charcoal Anti-Pollution Face Care Combo (Pack Of 1 Face Wash, 1 Face Scrub, 1 Peel Off Mask) 100gms Each</h4>
+            <p>₹197<strike>₹999</strike>
+              <span class="discount_off">80% off</span>
+            </p>
+          </a>
+        </li>
+        <li class="slick-slide slick-active" style="width: 197px;" tabindex="-1" role="option" aria-describedby="slick-slide25" data-slick-index="5" aria-hidden="false">
+          <a target="_blank" id="153318850" href="//www.shopclues.com/baleshwar-men-maroon-solid-formal-shirt-pack-of-1-153318850.html" om-zone="default" omnirel="D|Home|B9P6|Fashion|Mens Clo|Shirts|153318850|Desktop Tsif Block3|StrategicSale2" onclick="hometracking(this)" data-id="StrategicSale2" tabindex="0">
+            <img data-img="https://cdn.shopclues.com/images1/thumbnails/116964/200/200/153318850-116964816-1678955498.jpg" src="https://cdn.shopclues.com/images1/thumbnails/116964/200/200/153318850-116964816-1678955498.jpg">
+          <h4>Baleshwar Men Maroon Solid Formal Shirt (Pack of 1 )</h4>
+          <p>₹314<strike>₹1099</strike>
+            <span class="discount_off">71% off</span>
+          </p>
+        </a>
+      </li>
+      <li class="slick-slide" style="width: 197px;" tabindex="-1" role="option" aria-describedby="slick-slide26" data-slick-index="6" aria-hidden="true">
+        <a target="_blank" id="153421420" href="//www.shopclues.com/jollify-black-round-neck-printed-crop-top-women-153421420.html" om-zone="default" omnirel="D|Home|B9P7|Fashion|Womens C|Women We|153421420|Desktop Tsif Block3|StrategicSale2" onclick="hometracking(this)" data-id="StrategicSale2" tabindex="-1">
+          <img data-img="https://cdn.shopclues.com/images1/thumbnails/117315/200/200/153421420-117315425-1691161747.jpg" src="https://cdn.shopclues.com/images1/thumbnails/117315/200/200/153421420-117315425-1691161747.jpg">
+          <h4>JOLLIFY Black Round Neck Printed Crop Top Women</h4>
+          <p>₹349<strike>₹999</strike>
+            <span class="discount_off">65% off</span>
+          </p>
+        </a>
+      </li>
+      <li class="slick-slide" style="width: 197px;" tabindex="-1" role="option" aria-describedby="slick-slide27" data-slick-index="7" aria-hidden="true">
+        <a target="_blank" id="153430700" href="//www.shopclues.com/digimate-f9-tws-true-wireless-stereo-earbuds-bluetooth-headset-black-true-wireless-153430700.html" om-zone="default" omnirel="D|Home|B9P8|Mobile &amp; La|Audio an|Audio an|153430700|Desktop Tsif Block3|StrategicSale2" onclick="hometracking(this)" data-id="StrategicSale2" tabindex="-1">
+          <img data-img="https://cdn.shopclues.com/images1/thumbnails/117339/200/200/153430700-117339685-1692894907.jpg" src="https://cdn.shopclues.com/images1/thumbnails/117339/200/200/153430700-117339685-1692894907.jpg">
+          <h4>Wox F9 TWS True Wireless Stereo Earbuds Bluetooth Headset &nbsp;(Black, True Wireless)</h4>
+          <p>₹449<strike>₹999</strike>
+            <span class="discount_off">55% off</span>
+          </p>
+        </a>
+      </li>
+      <li class="slick-slide" style="width: 197px;" tabindex="-1" role="option" aria-describedby="slick-slide28" data-slick-index="8" aria-hidden="true">
+        <a target="_blank" id="153418478" href="//www.shopclues.com/earth-king-pure-kashmiri-shilajit-shilajit-resin-semi-liquid-for-strength-and-power-20gm-153418478.html" om-zone="default" omnirel="D|Home|B9P9|Sports &amp; He|Pharma|Nutritio|153418478|Desktop Tsif Block3|StrategicSale2" onclick="hometracking(this)" data-id="StrategicSale2" tabindex="-1">
+          <img data-img="https://cdn.shopclues.com/images1/thumbnails/117305/200/200/153418478-117305843-1690876276.jpg" src="https://cdn.shopclues.com/images1/thumbnails/117305/200/200/153418478-117305843-1690876276.jpg">
+          <h4>EARTH KING Pure Kashmiri Shilajit/Shilajit Resin (Semi Liquid) for Strength  and  Power 20Gm</h4>
+          <p>₹839<strike>₹1399</strike>
+            <span class="discount_off">40% off</span>
+          </p>
+        </a>
+      </li>
+    </div>
+  </div>
+  <button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;" aria-disabled="false">Next</button>
+</ul>
+</div>
+   
+
+
 <div class="row cat_promotion_box sc_shop_price">
       <h2>Budget Bazaar</h2>
       <ul style="height: auto;">
@@ -820,50 +743,43 @@
         <a title="Under Rs. 599" onclick="hometracking()"><img class="box_size" src="./images/599.jpg" alt=""></a>
         <a title="Under Rs. 799" onclick="hometracking()"><img class="box_size" src="./images/799.jpg" alt=""></a>
       </ul>
-  </div>
+  </div> 
 
-<!-- fivth one -->
-<!----
-<div class="Gyms">
-  <div class="tabbing_products crousel_products">
-      <ul id="StrategicSale2" class="imgScroll regular slick-initialized slick-slider">
-        <div  class="slick-list draggable">
-          <div class="slick-track">
-              <a onclick="hometracking()">
+ <!-- fivth one -->
+
+  <div class="gym_products crousel_products">
+    <div class="gym_Iteams">
+              <span onclick="hometracking()">
                 <img class="pic_sizzing_order" src="./images/thumb.jpg">
                 <h5 id="content_size">Medical Equipment & Accessories</h5>
                   <p>Upto 80% Off</p>
-              </a>
-                <a onclick="hometracking()">
+              </span>
+                <span onclick="hometracking()">
                   <img class="pic_sizzing_order" src="./images/smart_watch.jpg">
                  <h5 id="content_size"> Fitness Bands & Watches</h5>
                  <p>Upto 80% Off</p>
-                </a>
-                <a onclick="hometracking()">
+                </span>
+                <span onclick="hometracking()">
                   <img class="pic_sizzing_order" src="./images/water_bott.jpg">
                   <h5 id="content_size">Bottles &amp; Shakers</h5>
                   <p>Upto 80% Off</p>
-              </a>
-              <a onclick="hometracking()" >
+                </span>
+              <span onclick="hometracking()" >
                 <img class="pic_sizzing_order" src="./images/nutrishon.jpg">
                 <h5 id="content_size">Nutrition &amp; Supplements</h5>
-              </a>
-              <a onclick="hometracking()">
+              </span>
+              <span onclick="hometracking()">
                 <img class="pic_sizzing_order" src="./images/skking.jpg">
                 <h5 id="content_size">Skipping Ropes</h5>
                 <p>Starting @ 199</p>
-              </a>
-              <a onclick="hometracking()" >
+              </span>
+              <span onclick="hometracking()" >
                 <img class="pic_sizzing_order" src="./images/matt.jpg">
                   <h5  id="content_size">Yoga Mats</h5>
                   <p>Upto 80% Off</p>
-              </a>
-  
-          </div>
-        </div>
-      </ul>
+              </span>
+      </div>
   </div>
-</div>-->
 
 
 <!----
