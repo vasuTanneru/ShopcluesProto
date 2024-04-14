@@ -894,6 +894,14 @@ strong:hover{
     right:1.1%;
 }
 
+.my-container{
+    /* margin-top: 530px; */
+    width: 12400px;
+    height: 296px;
+    position:relative;
+    right:1.1%;
+}
+
 .item_list
 {
     padding:33px 15px 0px 15px ;
@@ -901,8 +909,10 @@ strong:hover{
     align-items: center;
     text-align: center;
     height: 296px;
-    width: 290px;
+    width: 300px;
     border: 1px solid #fff;
+    /* transform: scale(); */
+
 }
 .item_list:hover{
     border: 1px solid #75a9bc;
@@ -910,15 +920,53 @@ strong:hover{
 }
 
 .slides_of_img{
+    background-color: #FFFFFF;
+    width: 1100px;
     display: flex;
     flex-direction: row;
     overflow: hidden;
 }
 
+.my-slides_of_img{
+    background-color: #FFFFFF;
+    width: 1140px !important;
+    margin-left: 74px !important;
+    margin-left: 74px !important;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    /* transition: all 0.2s; */
+
+}
+
+
 #content_size{
     margin: 12px 2px 7px 2px;
 }
 
+.btn_ui {
+    position: absolute !important;
+    margin-left: 1105px;
+    margin-top: 105px;
+}
+
+.prev_btn_ui {
+    position: absolute !important;
+    margin-left: -15px;
+    margin-top: 105px;
+}
+
+.btn_ui1 {
+    position: absolute !important;
+    margin-left: 1105px;
+    margin-top: 105px;
+}
+
+.prev_btn_ui1 {
+    position: absolute !important;
+    margin-left: -15px;
+    margin-top: 105px;
+}
 
 .prev_button {
     height: 70px;
@@ -927,7 +975,7 @@ strong:hover{
     font-size: x-large;
     color: white;
     border-radius: 3px;
-    /* padding-left: 1px; */
+    padding-left: 1px; 
     border: none;
     z-index: 4;
     overflow: hidden;
@@ -941,25 +989,11 @@ strong:hover{
     font-size: x-large;
     color: white;
     border-radius: 3px;
-    /* padding-left: 1px; */
+     padding-left: 1px; 
     border: none;
     z-index: 4;
 }
-/* .right_button{
-    height: 70px;
-    width: 40px;
-    border-radius: 3px;
-    position: absolute;
-    border: none;
-    background: #24a3b5;
-    top: 0;
-    bottom: 0;
-    margin: auto 0;
-    overflow: hidden;
-    text-indent: 100px;
-    z-index: 2;
-    float:left;
-} */
+
 
 .sports_container{
     display:flex;
@@ -1058,3 +1092,22 @@ strong:hover{
     margin: 20px 0 10px 0;
 }
 
+
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    background-color: #24A3B5;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 1px 16px;
+    cursor: pointer;
+    font-size: xx-large;
+
+}
+
+#scrollToTopBtn:hover {
+    background-color: #24A3B5;
+}
